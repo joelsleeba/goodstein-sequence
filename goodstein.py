@@ -46,7 +46,7 @@ def base_form(n, base):
                     add = f"{ar[i]}*{base}"
                 else:
                     add = f"{ar[i]}*{base}^({temp})"
-            string = add if string == "" else f"{add} + {string}"
+            string = add if string == "" else f"{add}+{string}"
     return string
 
 def goodstein(a, n):
